@@ -1,0 +1,31 @@
+.container {
+  margin-top: 1.5rem;
+}
+
+.title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.project {
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  font-size: 0.9rem;
+}
+
+.projectLight {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+.projectDark {
+  background: rgba(255, 255, 255, 0.1);
+  color: #a0aec0;
+}

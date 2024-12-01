@@ -1,0 +1,10 @@
+.container {
+  min-height: 100vh;
+  padding: 3rem 1rem;
+  backdrop-filter: blur(10px);
+}
+
+.content {
+  max-width: 1024px;
+  margin: 0 auto;
+}

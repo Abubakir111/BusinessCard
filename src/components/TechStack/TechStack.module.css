@@ -1,0 +1,32 @@
+.container {
+  margin-top: 1.5rem;
+}
+
+.title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: #e2e8f0;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.skill {
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  font-size: 0.9rem;
+}
+
+.skillLight {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+.skillDark {
+  background: rgba(255, 255, 255, 0.1);
+  color: #a0aec0;
+}
