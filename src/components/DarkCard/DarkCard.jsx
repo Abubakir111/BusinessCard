@@ -26,9 +26,7 @@ export const DarkCard = ({ photo }) => {
         <h1 className={styles.name}>Bakir</h1>
         <h2 className={styles.title}>Frontend Developer</h2>
       </div>
-
       <img src={photo} alt='Profile' className={styles.photo} />
-
       <div>
         <ContactInfo
           email='bakirbazarkul16@gmail.com'
@@ -38,17 +36,16 @@ export const DarkCard = ({ photo }) => {
           userGithub='https://github.com/Abubakir111'
         />
       </div>
-
       <div className={styles.divider}></div>
-
       <LocationInfo location='Bishkek' workFormat='Remote Work' theme='dark' />
-
       <div className={styles.divider}></div>
+      <h2 className={styles.title}> Experience:</h2>
+      <h2 className={styles.title}> more than 3 years of work</h2>
 
+      {/* <h3>experience: more than 3 years of work</h3> */}
+      <div className={styles.divider}></div>
       <TechStack skills={skills} theme='dark' />
-
       <div className={styles.divider}></div>
-
       <Portfolio projects={projects} theme='dark' />
     </div>
   );
