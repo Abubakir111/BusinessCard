@@ -11,15 +11,19 @@
 .projects {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem;
+  column-gap: 10px;
+  row-gap: 25px;
 }
 
 .project {
   padding: 0.5rem 1rem;
   border-radius: 9999px;
   font-size: 0.9rem;
+  transition: background 0.3s ease;
 }
-
+.project:hover {
+  background: rgba(66, 64, 64, 0.2);
+}
 .projectLight {
   background: rgba(255, 255, 255, 0.2);
   color: white;

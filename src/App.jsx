@@ -1,7 +1,6 @@
-import React from 'react';
-import { DarkCard } from './components/DarkCard/DarkCard';
-import styles from './App.module.css';
-import isMy from '../src/images/isMy.jpg';
+import isMy2 from "../src/images/is_my2.jpg";
+import styles from "./App.module.css";
+import { DarkCard } from "./components/DarkCard/DarkCard";
 
 function App() {
   // const photo = 'https://placehold.co/400x400';
@@ -9,7 +8,7 @@ function App() {
   return (
     <div className={styles.container}>
       <div className={styles.content}>
-        <DarkCard photo={isMy} />
+        <DarkCard photo={isMy2} />
       </div>
     </div>
   );
